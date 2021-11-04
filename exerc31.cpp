@@ -1,5 +1,5 @@
-/* Exercício 31: Elabore um programa em que sejam declaradas 2 variáveis do tipo float e a elas atribuídos as notas de 2 provas (os valores deverão
-estar no intervalo de 0 a 10). Calcule e mostre a média com 1 casa decimal. */
+/* ExercÃ­cio 31: Elabore um programa em que sejam declaradas 2 variÃ¡veis do tipo float e a elas atribuÃ­dos as notas de 2 provas (os valores deverÃ£o
+estar no intervalo de 0 a 10). Calcule e mostre a mÃ©dia com 1 casa decimal. */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -7,7 +7,7 @@ estar no intervalo de 0 a 10). Calcule e mostre a média com 1 casa decimal. */
 #include <stdlib.h>
 #include <locale.h>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
@@ -15,7 +15,7 @@ main()
 	setlocale(LC_ALL, "Portuguese");
 	float nota1 = 7.5;
 	float nota2 = 8.7;
-	printf("Média: %.1f.\n\n", (nota1 + nota2) / 2);
+	printf("MÃ©dia: %.1f.\n\n", (nota1 + nota2) / 2);
 	system("pause");
 	
 }
