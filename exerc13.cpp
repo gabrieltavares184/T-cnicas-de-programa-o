@@ -1,4 +1,4 @@
-/* Exercício 13: Faça um programa que leia três valores inteiros, calcule e apresente a média destes valores lidos.
+/* ExercÃ­cio 13: FaÃ§a um programa que leia trÃªs valores inteiros, calcule e apresente a mÃ©dia destes valores lidos.
 
 MD = (num1+num2+num3)/3 */
 
@@ -9,14 +9,14 @@ MD = (num1+num2+num3)/3 */
 #include <locale.h>
 #include <conio.c>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
 	
 	setlocale(LC_ALL, "Portuguese");
     textcolor(10);
-    printf("MÉDIA\n\n");
+    printf("MÃ‰DIA\n\n");
     textcolor(7);
 	int valor1, valor2, valor3;
 	printf("Digite o primeiro valor: ");
@@ -25,8 +25,8 @@ main()
 	scanf("%d", &valor2);
 	printf("Digite o terceiro valor: ");
 	scanf("%d", &valor3);
-	int media = (valor1 + valor2 + valor3) / 3; // Para calcularmos a média dos valores digitados, foi necessário somar os três valores, colocando o parênteses para que tenha a prioridade da expressão e deposi dividir pelo número de elementos.
-	printf("\nA média dos valores digitados é igual a: %d\n\n", media);
+	int media = (valor1 + valor2 + valor3) / 3; // Para calcularmos a mÃ©dia dos valores digitados, foi necessÃ¡rio somar os trÃªs valores, colocando o parÃªnteses para que tenha a prioridade da expressÃ£o e deposi dividir pelo nÃºmero de elementos.
+	printf("\nA mÃ©dia dos valores digitados Ã© igual a: %d\n\n", media);
 	system("pause");
 		
 }
