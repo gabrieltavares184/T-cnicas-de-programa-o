@@ -1,10 +1,10 @@
-/* ExercÌcio 23: FaÁa um programa para calcular o custo de uma viagem de automÛvel. Para isto receba o total de quilÙmetros percorridos e o valor
-pago nos ped·gios. Admita que o carro utilize o combustÌvel etanol, que custa R$ 2.79 e o consumo do veÌculo È de 8.5 km/l. 
-Apresente o custo total da viagem com duas casas decimais e o sÌmbolo R$.
+/* Exerc√≠cio 23: Fa√ßa um programa para calcular o custo de uma viagem de autom√≥vel. Para isto receba o total de quil√¥metros percorridos e o valor
+pago nos ped√°gios. Admita que o carro utilize o combust√≠vel etanol, que custa R$ 2.79 e o consumo do ve√≠culo √© de 8.5 km/l. 
+Apresente o custo total da viagem com duas casas decimais e o s√≠mbolo R$.
 
    Litros = Qtdekm/8.5;
-   Total combustÌvel = Litros * 2.79;
-   Total viagem = Total combustÌvel + total ped·gios. */
+   Total combust√≠vel = Litros * 2.79;
+   Total viagem = Total combust√≠vel + total ped√°gios. */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -13,21 +13,21 @@ Apresente o custo total da viagem com duas casas decimais e o sÌmbolo R$.
 #include <locale.h>
 #include <conio.c>
 
-//------------------------------------------------FunÁıes----------------------------------------------------------------//
+//------------------------------------------------Fun√ß√µes----------------------------------------------------------------//
 
 main()
 {
 
 	setlocale(LC_ALL, "Portuguese");
 	textcolor(10);
-	printf(" > Custo de uma viagem de automÛvel <");
+	printf(" > Custo de uma viagem de autom√≥vel <");
 	textcolor(7);
-	printf("\n\nDigite o total de quilÙmetros percorridos: ");
+	printf("\n\nDigite o total de quil√¥metros percorridos: ");
 	float km;
 	textcolor(15);
 	scanf("%f", &km);
 	textcolor(7);
-	printf("Digite o valor pago nos ped·gios: ");
+	printf("Digite o valor pago nos ped√°gios: ");
 	float valor_pedagios;
 	textcolor(15);
 	scanf("%f", &valor_pedagios);
