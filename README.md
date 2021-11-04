@@ -1,2 +1,2 @@
-# T-cnicas-de-programa-o
+# Técnicas de programação
 Conteúdos e exercícios da matéria.
