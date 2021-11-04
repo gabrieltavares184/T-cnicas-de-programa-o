@@ -1,4 +1,4 @@
-/* Exercício 17: Faça um programa que leia um valor em reais, calcule e mostre a quantidade em dólares que esta quantia em reais representa. */
+/* ExercÃ­cio 17: FaÃ§a um programa que leia um valor em reais, calcule e mostre a quantidade em dÃ³lares que esta quantia em reais representa. */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -7,20 +7,20 @@
 #include <locale.h>
 #include <conio.c>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
 	
 	setlocale(LC_ALL, "Portuguese");
 	textcolor(10);
-	printf("-> Conversor de reais para dólar <-");
+	printf("-> Conversor de reais para dÃ³lar <-");
 	textcolor(7);
 	printf("\n\nReal brasileiro: ");
 	float reais;
 	scanf("%f", &reais);
 	float dolar = reais / 4.36;
-	printf("Dólar americano: %.2f $\n\n", dolar);
+	printf("DÃ³lar americano: %.2f $\n\n", dolar);
 	system("pause");
 	
 }
