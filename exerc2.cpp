@@ -1,4 +1,4 @@
-/* Exercício 2: Refaça o exercício anterior com as mesmas configurações (pular as linhas) mas em um único printf. */
+/* ExercÃ­cio 2: RefaÃ§a o exercÃ­cio anterior com as mesmas configuraÃ§Ãµes (pular as linhas) mas em um Ãºnico printf. */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -7,7 +7,7 @@
 #include <conio.c>
 #include <stdlib.h>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
