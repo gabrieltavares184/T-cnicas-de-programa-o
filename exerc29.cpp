@@ -1,5 +1,5 @@
-/* Exercício 29: Elabore um programa que declare uma variável do tipo float que indique uma temperatura em graus Celsius. Transforme-a em
-Farenheit e Kelvin e apresente os três valores, como no exemplo:
+/* ExercÃ­cio 29: Elabore um programa que declare uma variÃ¡vel do tipo float que indique uma temperatura em graus Celsius. Transforme-a em
+Farenheit e Kelvin e apresente os trÃªs valores, como no exemplo:
 	
 	- Temperatura em Celsius: 100
 	- Temperatura em Fahrenheit: 212
@@ -11,16 +11,16 @@ Farenheit e Kelvin e apresente os três valores, como no exemplo:
 #include <stdlib.h>
 #include <locale.h>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
 	
 	setlocale(LC_ALL, "Portuguese");
 	float celsius = 100;
-	printf("Temperatura em Celsius: %.2f °C.", celsius);
+	printf("Temperatura em Celsius: %.2f Â°C.", celsius);
 	float fahrenheit = (celsius * 9 / 5) + 32;
-	printf("\nTemperatura em Fahrenheit: %.2f °F.", fahrenheit);
+	printf("\nTemperatura em Fahrenheit: %.2f Â°F.", fahrenheit);
 	float kelvin = celsius + 273.15;
 	printf("\nTemperatura em Kelvin: %.2f K.\n\n", kelvin);
 	system("pause");
