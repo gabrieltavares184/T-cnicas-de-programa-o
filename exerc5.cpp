@@ -1,4 +1,4 @@
-/* Exercício 5: Faça um programa que dê a execução do código abaixo. Acrescente mais 3 palavras. */
+/* ExercÃ­cio 5: FaÃ§a um programa que dÃª a execuÃ§Ã£o do cÃ³digo abaixo. Acrescente mais 3 palavras. */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -7,23 +7,23 @@
 #include <conio.c>
 #include <stdlib.h>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
 	
 	setlocale(LC_ALL, "Portuguese");
 	textbackground(15); // Exibe os caracteres com a cor de fundo escolhida.
-	clrscr(); // Limpa a tela ou pinta da cor definida em textbackground(), apagando qualquer texto visível.
+	clrscr(); // Limpa a tela ou pinta da cor definida em textbackground(), apagando qualquer texto visÃ­vel.
 	textcolor(13);
-	printf("Espanhol\t\tPortuguês");
+	printf("Espanhol\t\tPortuguÃªs");
 	textcolor(0);
 	printf("\n\nLibro\t\t\tLivro");
 	printf("\nPrueba\t\t\tTeste");
 	printf("\nSilla\t\t\tCadeira");
 	printf("\nFiesta\t\t\tFesta");
 	printf("\nPerro\t\t\tCachorro");
-	printf("\nLápiz\t\t\tLápis");
+	printf("\nLÃ¡piz\t\t\tLÃ¡pis");
 	printf("\nCuaderno\t\tCaderno\n\n");
 	system("pause");
 	
