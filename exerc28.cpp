@@ -1,5 +1,5 @@
-/* Exercício 28: Faça um programa que calcule o troco em uma compra. Para isto, insira o valor da compra, o valor de entrada e calcule o troco que o
-usuário deve receber. */
+/* ExercÃ­cio 28: FaÃ§a um programa que calcule o troco em uma compra. Para isto, insira o valor da compra, o valor de entrada e calcule o troco que o
+usuÃ¡rio deve receber. */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -7,7 +7,7 @@ usuário deve receber. */
 #include <stdlib.h>
 #include <locale.h>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
