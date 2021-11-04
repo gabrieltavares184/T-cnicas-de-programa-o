@@ -1,6 +1,6 @@
-/* Exercício 18: Faça um programa que leia uma temperatura em Celsius, calcule e mostre o correspondente em Fahrenheit.
+/* ExercÃ­cio 18: FaÃ§a um programa que leia uma temperatura em Celsius, calcule e mostre o correspondente em Fahrenheit.
 
-   0º Celsius = 32º Fahrenheit */
+   0Âº Celsius = 32Âº Fahrenheit */
 
 //------------------------------------------------Bibliotecas------------------------------------------------------------//
 
@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-//------------------------------------------------Funções----------------------------------------------------------------//
+//------------------------------------------------FunÃ§Ãµes----------------------------------------------------------------//
 
 main()
 {
@@ -18,7 +18,7 @@ main()
 	float celsius;
 	scanf("%f", &celsius);
 	float fahrenheit = (celsius * 9 / 5) + 32;
-	printf("O valor informado, convertido em fahrenheit, é igual a: %.1f °F.\n\n", fahrenheit);
+	printf("O valor informado, convertido em fahrenheit, Ã© igual a: %.1f Â°F.\n\n", fahrenheit);
 	system("pause");
 			 
 }
