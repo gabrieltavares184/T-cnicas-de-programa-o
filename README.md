@@ -1,2 +1,2 @@
 # Técnicas de programação
-Conteúdos e exercícios da matéria.
+Repositório destinado às atividades de Técnicas de Programação, do Colégio Técnico Industrial (CTI).
